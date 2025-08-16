@@ -1,6 +1,6 @@
-# Sistema de Lavandería Coudevi
+# Sistema de Clinica Veterinaria ClinicAnimal
 
-**Desarrollado por:** COUDEVI  (Victor Fernández)
+**Desarrollado por:** GRUPO 10  (*)
 **Versión:** 1.0.0  
 **Tecnologías:**
 - Java 17
@@ -15,6 +15,6 @@
 ---
 
 ##  Descripción
-El **Sistema de Lavandería Coudevi** permite la gestión integral de una lavandería, incluyendo registro de clientes, control de órdenes de servicio, asignación de trabajos, seguimiento de estados, gestión de usuarios y tipos de servicio, y emisión de reportes administrativos.
+El **Sistema de Clinica Veterinaria ClinicAnimal** permite la gestión integral de una Clinica Veterinaria, incluyendo registro de clientes, control de citas de servicio, asignación de personal, seguimiento de estados, gestión de usuarios y tipos de servicio, y emisión de reportes administrativos.
 
 ---
