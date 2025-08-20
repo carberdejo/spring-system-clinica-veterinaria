@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-system-clinica-veterinaria
+  datasource:
+    url: jdbc:mysql://localhost:3306/veterinaria
+    username: root
+    password: MyMagolorDS
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
