@@ -39,8 +39,14 @@ public class RolesServImpl implements RolesService {
 
     @Override
     public RolesResponseDTO obtenerporId(Long id) {
-
-        return null;
+    Roles rolbuscado = rolesRep.findById(id)
+            .orElseThrow(() -> new RuntimeException("No se encontró el Rol con id: " + id));
+        RolesResponseDTO dto = new RolesResponseDTO();
+        dto.setRolCodigo(rolbuscado.getRolCodigo());
+        dto.setRolNombre(rolbuscado.getRolNombre());
+        dto.setCantPersonal(rolbuscado.getCantPersonal());
+        dto.setCantPersonal(rolbuscado.getCantPersonal());
+        return dto;
     }
 
     @Override
