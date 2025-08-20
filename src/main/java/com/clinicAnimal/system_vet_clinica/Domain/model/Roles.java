@@ -1,4 +1,4 @@
-package com.clinicAnimal.system_vet_clinica.Domain.Models;
+package com.clinicAnimal.system_vet_clinica.domain.model;
 import jakarta.persistence.*;
 import lombok.*;
 

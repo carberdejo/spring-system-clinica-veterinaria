@@ -1,6 +1,5 @@
-package com.clinicAnimal.system_vet_clinica.App.Service;
+package com.clinicAnimal.system_vet_clinica.aplication.service;
 
-import com.clinicAnimal.system_vet_clinica.Domain.Models.Roles;
 import com.clinicAnimal.system_vet_clinica.Web.dto.RolesRequestDTO;
 import com.clinicAnimal.system_vet_clinica.Web.dto.RolesResponseDTO;
 
