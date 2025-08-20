@@ -1,5 +1,10 @@
 spring:
   application:
+    name: system-vet-clinica
+  datasource:
+    url: jdbc:mysql://localhost:3306/Bd_clinicaAni
+    username: root
+    password:
     name: spring-system-clinica-veterinaria
   datasource:
     url: jdbc:mysql://localhost:3306/veterinaria
