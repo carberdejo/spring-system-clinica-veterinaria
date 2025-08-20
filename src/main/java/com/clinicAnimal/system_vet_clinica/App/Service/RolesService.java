@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface RolesService {
    RolesResponseDTO crear(RolesRequestDTO rolesRequestDTO);
-    List<Roles> listar();
+    List<RolesResponseDTO> listar();
     RolesResponseDTO obtenerporId(Long id);
     RolesResponseDTO actualizar(RolesRequestDTO rolesRequestDTO,Long id);
 }
