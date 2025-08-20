@@ -1,5 +1,10 @@
 spring:
   application:
+    name: spring-system-clinica-veterinaria
+  datasource:
+    url: jdbc:mysql://localhost:3306/veterinaria
+    username: root
+    password: MyMagolorDS
     name: system-vet-clinica
   datasource:
     url: jdbc:mysql://localhost:3306/bd_clinic_animal
@@ -13,3 +18,5 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        format_sql: true
+
