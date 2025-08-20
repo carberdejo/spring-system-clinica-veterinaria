@@ -1,8 +1,8 @@
-package com.clinicAnimal.system_vet_clinica.App.Mapping.impl;
+package com.clinicAnimal.system_vet_clinica.aplication.mapper.impl;
 
-import com.clinicAnimal.system_vet_clinica.App.Mapping.PersonalMap;
-import com.clinicAnimal.system_vet_clinica.Domain.Models.Personal;
-import com.clinicAnimal.system_vet_clinica.Domain.Models.Roles;
+import com.clinicAnimal.system_vet_clinica.aplication.mapper.PersonalMap;
+import com.clinicAnimal.system_vet_clinica.domain.model.Personal;
+import com.clinicAnimal.system_vet_clinica.domain.model.Roles;
 import com.clinicAnimal.system_vet_clinica.Web.dto.PersonalRequestDTO;
 import com.clinicAnimal.system_vet_clinica.Web.dto.PersonalResponseDTO;
 import lombok.Builder;

@@ -1,10 +1,12 @@
 spring:
   application:
-    name: spring-system-clinica-veterinaria
+    name: system-vet-clinica
   datasource:
-    url: jdbc:mysql://localhost:3306/veterinaria
+    url: jdbc:mysql://localhost:3306/Bd_clinicaAni
     username: root
-    password: MyMagolorDS
+    password: Indra24go
+    name: system-vet-clinica
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
     hibernate:
@@ -12,3 +14,5 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+
