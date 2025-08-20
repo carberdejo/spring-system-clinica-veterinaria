@@ -1,6 +1,6 @@
-package com.clinicAnimal.system_vet_clinica.Domain.Models;
+package com.clinicAnimal.system_vet_clinica.domain.model;
 
-import com.clinicAnimal.system_vet_clinica.Domain.Models.estado.EstadoPersonal;
+import com.clinicAnimal.system_vet_clinica.domain.model.Estados.EstadoPersonal;
 import jakarta.persistence.*;
 import lombok.*;
 

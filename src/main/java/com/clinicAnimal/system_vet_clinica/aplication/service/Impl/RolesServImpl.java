@@ -1,11 +1,11 @@
-package com.clinicAnimal.system_vet_clinica.App.Service.ServImpl;
+package com.clinicAnimal.system_vet_clinica.aplication.service.Impl;
 
-import com.clinicAnimal.system_vet_clinica.App.Mapping.RolesMap;
-import com.clinicAnimal.system_vet_clinica.App.Service.RolesService;
-import com.clinicAnimal.system_vet_clinica.Domain.Models.Roles;
-import com.clinicAnimal.system_vet_clinica.Domain.Models.repository.RolesRep;
+import com.clinicAnimal.system_vet_clinica.aplication.mapper.RolesMap;
+import com.clinicAnimal.system_vet_clinica.domain.model.Roles;
+import com.clinicAnimal.system_vet_clinica.domain.repository.RolesRep;
 import com.clinicAnimal.system_vet_clinica.Web.dto.RolesRequestDTO;
 import com.clinicAnimal.system_vet_clinica.Web.dto.RolesResponseDTO;
+import com.clinicAnimal.system_vet_clinica.aplication.service.RolesService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

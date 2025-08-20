@@ -1,4 +1,4 @@
-package com.clinicAnimal.system_vet_clinica.Web.dto;
+package com.clinicAnimal.system_vet_clinica.web.dto;
 
 import lombok.*;
 
