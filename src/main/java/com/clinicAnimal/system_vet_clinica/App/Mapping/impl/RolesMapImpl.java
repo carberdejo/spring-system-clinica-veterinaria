@@ -1,0 +1,30 @@
+package com.clinicAnimal.system_vet_clinica.App.Mapping.impl;
+
+import com.clinicAnimal.system_vet_clinica.App.Mapping.RolesMap;
+import com.clinicAnimal.system_vet_clinica.Domain.Models.Roles;
+import com.clinicAnimal.system_vet_clinica.Web.dto.RolesRequestDTO;
+import com.clinicAnimal.system_vet_clinica.Web.dto.RolesResponseDTO;
+import lombok.Builder;
+import org.springframework.stereotype.Component;
+
+@Component
+@Builder
+public class RolesMapImpl implements RolesMap {
+    @Override
+    public Roles toEntity(RolesRequestDTO dto) {
+        return Roles.builder()
+                .rolNombre(dto.getRolNombre())
+                .descripcion(dto.getDescripcion())
+                .build();
+    }
+
+    @Override
+    public RolesResponseDTO toDto(Roles entity) {
+        return RolesResponseDTO.builder()
+                .rolCodigo(entity.getRolCodigo())
+                .rolNombre(entity.getRolNombre())
+                .descripcion(entity.getDescripcion())
+                .cantPersonal(entity.getCantPersonal())
+                .build();
+    }
+}
