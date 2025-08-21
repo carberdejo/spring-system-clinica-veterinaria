@@ -2,9 +2,9 @@ spring:
   application:
     name: system-vet-clinica
   datasource:
-    url: jdbc:mysql://localhost:3306/Bd_clinicaAni
+    url: jdbc:mysql://localhost:3306/veterinaria
     username: root
-    password: Indra24go
+    password: MyMagolorDS
     name: system-vet-clinica
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:

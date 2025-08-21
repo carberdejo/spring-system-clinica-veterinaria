@@ -2,8 +2,8 @@ package com.clinicAnimal.system_vet_clinica.aplication.mapper.impl;
 
 import com.clinicAnimal.system_vet_clinica.aplication.mapper.RolesMap;
 import com.clinicAnimal.system_vet_clinica.domain.model.Roles;
-import com.clinicAnimal.system_vet_clinica.Web.dto.RolesRequestDTO;
-import com.clinicAnimal.system_vet_clinica.Web.dto.RolesResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.RolesRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.RolesResponseDTO;
 import lombok.Builder;
 import org.springframework.stereotype.Component;
 
@@ -24,7 +24,6 @@ public class RolesMapImpl implements RolesMap {
                 .rolCodigo(entity.getRolCodigo())
                 .rolNombre(entity.getRolNombre())
                 .descripcion(entity.getDescripcion())
-                .cantPersonal(entity.getCantPersonal())
                 .build();
     }
 }

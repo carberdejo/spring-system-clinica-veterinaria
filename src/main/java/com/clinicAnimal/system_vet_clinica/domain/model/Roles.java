@@ -16,8 +16,9 @@ public class Roles {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="Codigo_Rol")
     private Long rolCodigo;
+    @Column(name = "Nombre Rol")
     private String rolNombre;
-    private int cantPersonal;
+    @Column(name = "Descripcion")
     private String descripcion;
     @OneToMany(mappedBy = "roles",cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     private List<Personal> personalList;
