@@ -10,7 +10,6 @@ import com.clinicAnimal.system_vet_clinica.web.dto.CitaRequestDTO;
 import com.clinicAnimal.system_vet_clinica.web.dto.CitaResponseDTO;
 import com.clinicAnimal.system_vet_clinica.web.dto.CitaUpdateDTO;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,7 +30,7 @@ public class CitaServImpl implements CitaService {
 
         Cita cita = Cita.builder()
                 .fechaHora(citaRequestDTO.getFechaHora())
-                .estado(EstadoCita.PENDIENTE) // por defecto al crear
+                .estado(EstadoCita.PENDIENTE)
                 .mascota(mascota)
                 .build();
 
