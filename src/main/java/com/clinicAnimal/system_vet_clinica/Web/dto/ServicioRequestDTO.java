@@ -12,4 +12,5 @@ public class ServicioRequestDTO {
     private String descripcion;
     private Integer duracion;
     private double precio;
+    private  Integer idArea;
 }

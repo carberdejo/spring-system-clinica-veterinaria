@@ -3,8 +3,8 @@ package com.clinicAnimal.system_vet_clinica.aplication.mapper.impl;
 import com.clinicAnimal.system_vet_clinica.aplication.mapper.PersonalMap;
 import com.clinicAnimal.system_vet_clinica.domain.model.Personal;
 import com.clinicAnimal.system_vet_clinica.domain.model.Roles;
-import com.clinicAnimal.system_vet_clinica.Web.dto.PersonalRequestDTO;
-import com.clinicAnimal.system_vet_clinica.Web.dto.PersonalResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.PersonalRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.PersonalResponseDTO;
 import lombok.Builder;
 import org.springframework.stereotype.Component;
 

@@ -13,4 +13,6 @@ public class ServicioResponseDTO {
     private String descripcion;
     private Integer duracion;
     private double precio;
+    private  Integer idArea;
+    private String nomArea;
 }
