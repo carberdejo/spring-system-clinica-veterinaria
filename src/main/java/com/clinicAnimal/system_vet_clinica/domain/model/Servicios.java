@@ -15,12 +15,10 @@ public class Servicios {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cod_servicio")
     private Long id;
-    @Column(name = "nom_servicio")
     private String nombre;
     private String descripcion;
     private Integer duracion;
     private double precio;
-
 
 
 }
