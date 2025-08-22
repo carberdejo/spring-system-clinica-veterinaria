@@ -24,7 +24,6 @@ public class RolesMapImpl implements RolesMap {
                 .rolCodigo(entity.getRolCodigo())
                 .rolNombre(entity.getRolNombre())
                 .descripcion(entity.getDescripcion())
-                .cantPersonal(entity.getCantPersonal())
                 .build();
     }
 }

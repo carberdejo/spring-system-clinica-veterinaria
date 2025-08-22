@@ -34,17 +34,25 @@ public class RolesServImpl implements RolesService {
                 .stream()
                 .map(rolesMap::toDto)
                 .toList();
-
     }
 
     @Override
     public RolesResponseDTO obtenerporId(Long id) {
+    Roles rolbuscado = rolesRep.findById(id)
+            .orElseThrow(() -> new RuntimeException("No se encontró el Rol con id: " + id));
 
-        return null;
+        return rolesMap.toDto(rolbuscado);
     }
 
     @Override
-    public RolesResponseDTO actualizar(RolesRequestDTO rolesRequestDTO, Long id) {
-        return null;
+    public RolesResponseDTO actualizar(RolesRequestDTO rolesRequestDTO, Long id)
+    {
+        Roles rolbuscado = rolesRep.findById(id)
+                .orElseThrow(() -> new RuntimeException("No se encontró el Rol con id: " + id));
+        rolbuscado.setRolNombre(rolesRequestDTO.getRolNombre());
+        rolbuscado.setDescripcion(rolesRequestDTO.getDescripcion());
+        Roles rolActualizado = rolesRep.save(rolbuscado);
+
+        return rolesMap.toDto(rolActualizado);
     }
 }
