@@ -1,8 +1,8 @@
 package com.clinicAnimal.system_vet_clinica.web.controller;
 
 import com.clinicAnimal.system_vet_clinica.aplication.service.RolesService;
-import com.clinicAnimal.system_vet_clinica.web.dto.RolesRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.RolesResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.request.RolesRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.response.RolesResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

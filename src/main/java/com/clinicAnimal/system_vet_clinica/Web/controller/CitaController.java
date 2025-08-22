@@ -2,8 +2,8 @@ package com.clinicAnimal.system_vet_clinica.web.controller;
 
 import com.clinicAnimal.system_vet_clinica.aplication.service.CitaService;
 import com.clinicAnimal.system_vet_clinica.domain.model.Estados.EstadoCita;
-import com.clinicAnimal.system_vet_clinica.web.dto.CitaRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.CitaResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.request.CitaRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.response.CitaResponseDTO;
 import com.clinicAnimal.system_vet_clinica.web.dto.CitaUpdateDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

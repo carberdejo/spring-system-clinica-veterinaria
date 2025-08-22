@@ -1,7 +1,7 @@
 package com.clinicAnimal.system_vet_clinica.aplication.service;
 
-import com.clinicAnimal.system_vet_clinica.web.dto.RecetaRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.RecetaResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.request.RecetaRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.response.RecetaResponseDTO;
 import com.clinicAnimal.system_vet_clinica.web.dto.RecetaUpdateDTO;
 
 import java.time.LocalDate;

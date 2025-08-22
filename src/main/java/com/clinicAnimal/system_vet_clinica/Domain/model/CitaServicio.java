@@ -10,18 +10,18 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Servicios {
+public class CitaServicio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "cod_servicio")
+    @Column(name = "cod_servi-cita")
     private Long id;
-    private String nombre;
-    private String descripcion;
-    private Integer duracion;
-    private double precio;
+    private Integer cantidad;
+    private double precioBase;
+    private  double subTotal;
     @ManyToOne
     @JoinColumn(name="codigoArea")
-    private Areas area;
-
-
+    private Cita cita;
+    @ManyToOne
+    @JoinColumn(name="cod_servicio")
+    private Servicios servicios;
 }
