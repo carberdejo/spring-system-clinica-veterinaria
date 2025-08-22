@@ -5,6 +5,10 @@ import com.clinicAnimal.system_vet_clinica.domain.model.Areas;
 import com.clinicAnimal.system_vet_clinica.domain.model.Estados.EstadoPersonal;
 import com.clinicAnimal.system_vet_clinica.domain.model.Personal;
 import com.clinicAnimal.system_vet_clinica.domain.model.Roles;
+
+import com.clinicAnimal.system_vet_clinica.web.dto.PersonalRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.PersonalResponseDTO;
+
 import com.clinicAnimal.system_vet_clinica.web.dto.*;
 import lombok.Builder;
 import org.springframework.stereotype.Component;
