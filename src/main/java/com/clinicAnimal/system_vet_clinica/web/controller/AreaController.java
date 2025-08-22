@@ -1,11 +1,9 @@
-package com.clinicAnimal.system_vet_clinica.web.control;
+package com.clinicAnimal.system_vet_clinica.web.controller;
 
 
 import com.clinicAnimal.system_vet_clinica.aplication.service.AreaService;
 import com.clinicAnimal.system_vet_clinica.web.dto.AreasRequestDTO;
 import com.clinicAnimal.system_vet_clinica.web.dto.AreasResponseDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.RolesRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.RolesResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
