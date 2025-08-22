@@ -30,7 +30,6 @@ public class Cliente {
     private String direccion;
     @Column(name="email")
     private String email;
-
     @OneToMany(mappedBy = "cliente")
     private List<Mascota> mascotas;
 

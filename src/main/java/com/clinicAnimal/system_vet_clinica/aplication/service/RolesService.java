@@ -1,7 +1,7 @@
 package com.clinicAnimal.system_vet_clinica.aplication.service;
 
-import com.clinicAnimal.system_vet_clinica.web.dto.RolesRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.RolesResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.request.RolesRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.response.RolesResponseDTO;
 
 import java.util.List;
 

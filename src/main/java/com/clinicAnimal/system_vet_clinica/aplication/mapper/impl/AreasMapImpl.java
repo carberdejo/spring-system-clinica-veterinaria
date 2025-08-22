@@ -2,9 +2,8 @@ package com.clinicAnimal.system_vet_clinica.aplication.mapper.impl;
 
 import com.clinicAnimal.system_vet_clinica.aplication.mapper.AreasMap;
 import com.clinicAnimal.system_vet_clinica.domain.model.Areas;
-import com.clinicAnimal.system_vet_clinica.domain.model.Personal;
-import com.clinicAnimal.system_vet_clinica.web.dto.AreasRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.AreasResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.request.AreasRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.response.AreasResponseDTO;
 import lombok.Builder;
 import org.springframework.stereotype.Component;
 

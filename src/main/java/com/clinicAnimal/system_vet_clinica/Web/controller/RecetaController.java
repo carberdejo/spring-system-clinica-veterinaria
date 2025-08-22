@@ -1,8 +1,8 @@
 package com.clinicAnimal.system_vet_clinica.web.controller;
 
 import com.clinicAnimal.system_vet_clinica.aplication.service.RecetaService;
-import com.clinicAnimal.system_vet_clinica.web.dto.RecetaRequestDTO;
-import com.clinicAnimal.system_vet_clinica.web.dto.RecetaResponseDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.request.RecetaRequestDTO;
+import com.clinicAnimal.system_vet_clinica.web.dto.response.RecetaResponseDTO;
 import com.clinicAnimal.system_vet_clinica.web.dto.RecetaUpdateDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
