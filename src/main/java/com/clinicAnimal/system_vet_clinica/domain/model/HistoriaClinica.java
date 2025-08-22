@@ -1,5 +1,6 @@
 package com.clinicAnimal.system_vet_clinica.domain.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -23,7 +24,7 @@ public class HistoriaClinica {
     @Column(name ="diagnostico")
     private String diagnostico;
 
-    @Column(name ="diagnostico")
+    @Column(name ="tratamiento")
     private String tratamiento;
 
     @OneToOne
