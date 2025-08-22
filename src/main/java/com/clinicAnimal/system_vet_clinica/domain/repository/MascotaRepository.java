@@ -8,8 +8,7 @@ import java.util.List;
 
 @Repository
 public interface MascotaRepository extends JpaRepository<Mascota, Long> {
-
+    List<Mascota> findByNombreContainingIgnoreCase(String nombre);
+    List<Mascota> findByRazaContainingIgnoreCase(String raza);
     List<Mascota> findByClienteId(Long clienteId);
-
-    List<Mascota> findByRaza(String raza);
 }

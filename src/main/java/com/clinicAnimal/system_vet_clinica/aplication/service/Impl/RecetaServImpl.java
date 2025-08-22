@@ -59,7 +59,8 @@ public class RecetaServImpl implements RecetaService {
     // Usa el repositorio que busca por nombre de la mascota (paciente) asociada a la cita
     @Override
     public List<RecetaResponseDTO> buscarPorNombre(String nombre) {
-        return recetaRepository.findByNombreContainingIgnoreCase(nombre).stream()
+        // CORRECCIÓN ANTERIOR
+        return recetaRepository.findByIndicacionesContainingIgnoreCase(nombre).stream()
                 .map(this::mapToResponse)
                 .collect(Collectors.toList());
     }
@@ -67,7 +68,8 @@ public class RecetaServImpl implements RecetaService {
     // Acepta LocalDate (como en tu interfaz) y delega al repo que convierte a LocalDateTime
     @Override
     public List<RecetaResponseDTO> buscarPorFecha(LocalDate inicio, LocalDate fin) {
-        return recetaRepository.findByFechaBetween(inicio, fin).stream()
+        // CORRECCIÓN: ahora llama al método correcto del repositorio
+        return recetaRepository.findByFechaEmisionBetween(inicio, fin).stream()
                 .map(this::mapToResponse)
                 .collect(Collectors.toList());
     }

@@ -7,6 +7,9 @@ import java.time.LocalDate;
 import java.util.List;
 
 public interface RecetaRepository extends JpaRepository<Receta, Long> {
-    List<Receta> findByNombreContainingIgnoreCase(String nombre);
-    List<Receta> findByFechaBetween(LocalDate inicio, LocalDate fin);
+    // Esto es de la corrección anterior, pero podría ser diferente si lo cambiaste.
+    List<Receta> findByIndicacionesContainingIgnoreCase(String indicaciones);
+
+    // CORRECCIÓN: Ahora busca por 'fechaEmision'
+    List<Receta> findByFechaEmisionBetween(LocalDate inicio, LocalDate fin);
 }
